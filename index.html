@@ -16,12 +16,12 @@
     <link rel="icon" href="https://image.flaticon.com/icons/svg/2909/2909523.svg">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="projectionHTML(), createMap()">
     <h1>World Map Projections</h1>
     <svg width="960" height="650"></svg>
     <script src="index.js"></script>
-    <h2>Orthographic Projection</h2>
-    <button onclick='newProjection()'>New</button>
+    <h2 id="projection"></h2>
+    <button onclick="newProjection()">New</button>
     <p>By <a href="https://blakesportfolio.netlify.app/">Blake Stefansen</a></p>
   </body>
 </html>
