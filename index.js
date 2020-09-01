@@ -19,6 +19,8 @@ var listIndex = 0;
 
 // Create svg map
 function createMap() {
+  d3.selectAll('path').remove();
+  
   var svg = d3.select('svg');
   var projection = projectionList[listIndex];
   var pathGenerator = d3.geoPath().projection(projection);
