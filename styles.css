@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  margin-top: 2em;
   overflow: hidden;
   text-align: center;
   font-family: 'Lobster';
@@ -13,13 +14,15 @@ body {
   stroke-opacity: 0.1;
 }
 svg {
-  margin-top: 5em;
   padding: 5em;
   border: solid 5px black;
   background: silver;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 250%;
+}
+h2 {
+  font-size: 200%;
 }
 a {
   text-decoration: none
