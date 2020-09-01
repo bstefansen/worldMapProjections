@@ -11,4 +11,4 @@ I built this project to play around with D3 and to try out the different map pro
 - Users can select different map projections
 
 ## Demo
-Link to <a href="https://bstefansen.github.io/worldmap/">Production Build</a>
+Link to <a href="https://bstefansen.github.io/worldMapProjections/">Production Build</a>
