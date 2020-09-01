@@ -1,8 +1,12 @@
-# Under Construction 🛠️
-
 # World Map
 
 A web app that allows users to see various map projections
+
+![World Map Screenshot](screenshot.jpg)
+
+## Why
+
+## Features
 
 ## Demo
 
