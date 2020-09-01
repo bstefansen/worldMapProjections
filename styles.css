@@ -3,6 +3,9 @@ body {
   margin-top: 2em;
   text-align: center;
   font-family: 'Lobster';
+  background: #6190E8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .sphere {
   fill: #4242e4;
@@ -15,17 +18,21 @@ body {
 svg {
   padding-top: 5em;
   border: solid 5px black;
-  background: silver;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
-  font-size: 250%;
+  font-size: 300%;
+  margin-bottom: 0.5em;
 }
 h2 {
-  margin-top: 1em;
-  font-size: 200%;
+  margin-top: 0.5em;
+  font-size: 250%;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: darkblue;
 }
 a:hover {
   color: blue;
