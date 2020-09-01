@@ -1,4 +1,4 @@
-# World Map
+# World Map Projections
 A web app that allows users to see various map projections
 
 ![World Map Screenshot](screenshotNew.JPG)
