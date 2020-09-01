@@ -15,3 +15,13 @@ d3.json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
         .attr('class', 'country')
         .attr('d', pathGenerator);
   });
+
+projectionList = [
+  'd3.geoOrthographic()',
+  'd3.geoConicEqualArea()',
+  'd3.geoNaturalEarth1()'
+]
+
+function newProjection() {
+  console.log('test')
+}
