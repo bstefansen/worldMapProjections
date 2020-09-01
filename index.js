@@ -14,6 +14,7 @@ projectionName = [
   'Natural Earth'
 ]
 
+
 // Active projection index
 var listIndex = 0;
 
