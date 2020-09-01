@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Lobster';
+}
+.sphere {
+  fill: #4242e4;
+}
+.country {
+  fill: lightgreen;
+  stroke: black;
+  stroke-opacity: 0.1;
+}
+svg {
+  margin-top: 5em;
+  padding: 5em;
+  border: solid 5px black;
+  background: silver;
+}
+h1 {
+  font-size: xx-large;
+}
+a {
+  text-decoration: none
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
