@@ -17,7 +17,7 @@ body {
   stroke-opacity: 0.1;
 }
 svg {
-  padding-top: 5em;
+  padding: 2em 0em 2em 0em;
   border: solid 5px black;
   background: #ADA996;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
@@ -26,10 +26,21 @@ svg {
 h1 {
   font-size: 300%;
   margin-bottom: 0.5em;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h2 {
+  width: 960px;
+  margin: auto;
   margin-top: 0.5em;
   font-size: 250%;
+  border: solid 5px black;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 a {
   text-decoration: none;
@@ -40,5 +51,26 @@ a:hover {
   text-decoration: underline;
 }
 button {
-  margin: 1em;
+  padding: 0 1.75em 0 1.75em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  font-size: x-large;
+}
+button:hover {
+  background-color: silver;
+}
+div.tooltip {	
+  position: absolute;			
+  text-align: center;			
+  width: 60px;					
+  height: 28px;					
+  padding: 2px;				
+  font: 12px sans-serif;		
+  background: black;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
+.country:hover {
+  fill: red;
 }
