@@ -1,31 +1,14 @@
 body {
-  margin: 0px;
   margin-top: 2em;
   text-align: center;
   font-family: 'Lobster';
-  background: #6190E8;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   min-width: 1000px;
-}
-.sphere {
-  fill: #4242e4;
-}
-.country {
-  fill: lightgreen;
-  stroke: black;
-  stroke-opacity: 0.1;
-}
-svg {
-  padding: 2em 0em 2em 0em;
-  border: solid 5px black;
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
   font-size: 300%;
   margin-bottom: 0.5em;
+  padding: 0.1em;
   border-top: solid 5px black;
   border-bottom: solid 5px black;
   background: #ADA996;  /* fallback for old browsers */
@@ -36,6 +19,7 @@ h2 {
   width: 960px;
   margin: auto;
   margin-top: 0.5em;
+  padding: 0.1em;
   font-size: 250%;
   border: solid 5px black;
   background: #ADA996;  /* fallback for old browsers */
@@ -51,13 +35,34 @@ a:hover {
   text-decoration: underline;
 }
 button {
-  padding: 0 1.75em 0 1.75em;
+  width: 160px;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
   font-size: x-large;
 }
 button:hover {
   background-color: silver;
+}
+p {
+  width: 160px;
+  margin: auto;
+  padding: 0.1em;
+  border: solid 2px black;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sphere {
+  fill: #4242e4;
+}
+.country {
+  fill: lightgreen;
+  stroke: black;
+  stroke-opacity: 0.1;
+}
+svg {
+  padding: 2em 0em 2em 0em;
 }
 div.tooltip {	
   position: absolute;				
