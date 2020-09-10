@@ -42,12 +42,12 @@ function createMap() {
     .attr('d', pathGenerator({type: 'Sphere'}));
 
   // create tooltip
-  var tooltip = d3.select('svg').append('div')
+  var tooltip = d3.select('body').append('div')
                   .attr('class', 'tooltip')
                   .style('opacity', 0);
 
   // Appends all countries on the world atlas
-  d3.json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
+  d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
     .then(data => {
       var countries = topojson.feature(data, data.objects.countries);
       svg.selectAll('path').data(countries.features)
@@ -58,11 +58,16 @@ function createMap() {
             tooltip.transition()
                     .duration(200)
                     .style('opacity', .9);
-            tooltip.html(d.id)
-                    .style("left", (d3.event.pageX + 400) + "px")
+            tooltip.html(d.properties.name)
+                    .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 40) + "px");
-                    // console.log(d)
+                    // console.log(d.properties.name)
           })
+          .on("mouseout", function(d) {		
+            tooltip.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+        });
     });
 }
 
