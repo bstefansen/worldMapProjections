@@ -39,9 +39,11 @@ button {
   margin-bottom: 0.5em;
   margin-top: 0.5em;
   font-size: x-large;
+  background-color: #4242e4;
+  color: white;
 }
 button:hover {
-  background-color: silver;
+  background-color: #6969db;
 }
 p {
   width: 160px;
